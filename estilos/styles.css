@@ -1,0 +1,134 @@
+/* Estilos CSS */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #050517c9;/* Cor de fundo suave */
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to bottom, #2C2A31, #3067AD); /* Degradê vertical */
+    color: #0a0a0a; /* Cor do texto do cabeçalho */
+    padding: 10px;
+    text-align: center;
+    
+}
+.nome {
+    margin: 2px;
+   opacity: 0.9;
+    
+}
+
+
+nav {
+    
+    margin-top: 15px;
+    text-align: center;
+    
+}
+
+nav a {
+    color: #ffffff; /* Cor dos links no cabeçalho */
+    text-decoration: none;
+    margin-right: 20px;
+    opacity: 1; /* Adiciona opacidade aos links */
+    
+}
+
+ 
+
+
+
+
+nav a:hover {
+    text-decoration: none; /* Remove a decoração de sublinhado */
+    color: #ffd700; /* Nova cor ao passar o mouse (dourado) */
+    opacity: 0.8; /* Nova opacidade ao passar o mouse */
+
+    /* Adiciona sombra ao link */
+    box-shadow: 0 0 10px rgba(234, 223, 19, 0.479); /* Sombra com efeito de borrão */
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #F5F5F5; /* Fundo branco */
+    border-radius: 8px; /* Borda arredondada */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-top-left-radius: 20px; /* Cantos arredondados */
+    border-top-right-radius: 20px;
+}
+
+h2 {
+    color: #5f4bf7; /* Azul forte */
+    margin-top: 0; /* Remove a margem superior padrão */
+    margin-bottom: 15px; /* Margem inferior para separar dos parágrafos */
+    
+}
+
+h3 {
+    color: #7fa9f8; /* Vermelho forte */
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+p {
+    color: #000000; /* Cor padrão para texto */
+    margin-top: 0;
+   
+}
+
+footer {
+    background: linear-gradient(to bottom,#3067AD,85%,#393948); /* Cor de fundo do rodapé */
+    padding: 15px 30px; /* Padding extra na direita */
+    text-align: center;
+    position: relative; /* Adicionando posição relativa */
+    z-index: 1; /* Definindo um índice de camada */
+    margin-top: 20px; /* Ajustando a margem superior para compensar a altura do footer */
+    border-top-left-radius: 20px; /* Cantos arredondados */
+    border-top-right-radius: 20px; /* Cantos arredondados */
+}
+
+
+footer h2 {
+    color: #f2fe05e1; /* Cor do título do rodapé */
+    margin-bottom: 10px; /* Espaçamento inferior do título */
+}
+footer ul  {
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 5px;
+}
+
+footer ul a  {
+    color: #f03333; /* Cor dos links do rodapé */
+    text-decoration: none; /* Remove a decoração de sublinhado */
+    transition: color 0.4s; /* Adiciona uma transição suave de cor */
+    margin-right: 30px;
+}
+
+
+footer ul a:hover{
+    color: #f8f3d9; /* Nova cor ao passar o mouse (dourado) */
+    
+}
+footer  img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: opacity 0.3s;
+}
+ /* Definindo a opacidade padrão */
+ footer img:hover {
+    opacity: 0.2; /* Opacidade quando o mouse passa por cima */
+}
+.fa {
+    font-size: 24px; /* Tamanho do ícone */
+    color: #ebe5e5; /* Cor do ícone */
+    margin-right: 10px; /* Espaçamento à direita do ícone */
+}
